@@ -13,6 +13,6 @@ class spt extends Controller
     }
     function login(Request $req)
     {
-        return 'Hello';
+        return $req->input();
     }
 }

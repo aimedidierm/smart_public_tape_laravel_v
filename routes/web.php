@@ -19,4 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'spt@index');
 // Route::view('/admin','adminlayout');
 // Route::view('/admin/dashboard','admindashboard');
-Route::post('/',['spt@login']);
+Route::post('/','spt@login');
